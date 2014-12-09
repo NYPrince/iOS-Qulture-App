@@ -1,0 +1,16 @@
+//
+//  DiscoverViewController.h
+//  Qulture
+//
+//  Created by Rick Williams on 17/03/14.
+//  Copyright (c) 2014 Qulture. All rights reserved.
+//
+
+@interface DiscoverViewController : UITableViewController
+
+@property(nonatomic, retain) NSMutableArray *data;
+
++ (NSString*)selectedData;
+
+
+@end
